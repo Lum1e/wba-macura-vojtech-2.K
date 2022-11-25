@@ -1,0 +1,51 @@
+body {
+    background-color: purple;
+}
+
+.flexbox-container {
+
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+    width: 100%;
+    position: relative;   
+}
+
+.flexbox-container-nahore {
+
+    display: flex;
+    align-content: center;    
+    justify-content: center;    
+}
+
+.flexbox-item1 {
+
+    display: flex;
+    height: 100px;
+    width: 100px;    
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #333;
+    background-color: #ffe4c4;
+    margin: 3px;    
+}
+
+.flexbox-container-dole {
+
+    display: flex;
+    align-self: center;
+    bottom: 0;
+    position: absolute;
+}
+
+.flexbox-item2 {
+
+    display: flex;
+    height: 100px;
+    width: 100px;   
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #333;
+    background-color: #ffe4c4;
+    margin: 3px;    
+}
